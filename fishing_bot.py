@@ -19,8 +19,8 @@ import librosa
 # --- НАСТРОЙКИ ПО УМОЛЧАНИЮ ---
 # ==============================================================================
 CONFIG_FILE = 'bot_config.json'
-VISUAL_MODEL_PATH = r'runs/detect/yolov8n_wow_bobber/weights/best.pt'
-AUDIO_MODEL_PATH  = r'bobber_audio_model.keras'
+VISUAL_MODEL_PATH = r'visual_model.pt'
+AUDIO_MODEL_PATH  = r'audio_model.keras'
 WINDOW_TITLE = "World of Warcraft"
 
 # Клавиши
