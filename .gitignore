@@ -20,3 +20,5 @@ bot_config.json
 # Модели (лучше их хранить отдельно или на HF, но если они маленькие, можно оставить)
 # Но yolo base model нам точно не нужна в репо
 yolov8n.pt
+dataset_audio.7z
+dataset.7z
