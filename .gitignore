@@ -1,0 +1,22 @@
+# Виртуальное окружение
+.venv/
+venv/
+__pycache__/
+
+# Данные и логи обучения (они пойдут на HuggingFace)
+dataset/
+dataset_audio/
+audio_source/
+runs/
+
+# Временные файлы и конфиги
+bot_config.json
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Модели (лучше их хранить отдельно или на HF, но если они маленькие, можно оставить)
+# Но yolo base model нам точно не нужна в репо
+yolov8n.pt
